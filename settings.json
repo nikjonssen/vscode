@@ -1,0 +1,33 @@
+{
+  "workbench.statusBar.visible": true,
+  "workbench.activityBar.visible": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.inheritEnv": true,
+  "terminal.integrated.automationShell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+  "terminal.explorerKind": "external",
+  // "terminal.integrated.shell.windows": "C:\\Workflow\\Programs\\Git\\git-bash.exe",
+  "bracketPairColorizer.forceUniqueOpeningColor": false,
+  "bracketPairColorizer.forceIterationColorCycle": false,
+  "bracketPairColorizer.colorMode": "Consecutive",
+  "bracketPairColorizer.showBracketsInGutter": true,
+  "update.mode": "none",
+  "update.enableWindowsBackgroundUpdates": false,
+  "extensions.autoUpdate": false,
+  "extensions.autoCheckUpdates": false,
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/dist/css"
+    }
+  ],
+  "liveSassCompile.settings.generateMap": true,
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe"
+}

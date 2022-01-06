@@ -9,15 +9,24 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "terminal.integrated.inheritEnv": true,
-  "terminal.integrated.automationShell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
-  "terminal.explorerKind": "external",
-  // "terminal.integrated.shell.windows": "C:\\Workflow\\Programs\\Git\\git-bash.exe",
+  "editor.tokenColorCustomizations": {
+    // "comments": "#3d8860",
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  "terminal.integrated.inheritEnv": false,
+  "terminal.explorerKind": "integrated",
   "bracketPairColorizer.forceUniqueOpeningColor": false,
   "bracketPairColorizer.forceIterationColorCycle": false,
   "bracketPairColorizer.colorMode": "Consecutive",
   "bracketPairColorizer.showBracketsInGutter": true,
-  "update.mode": "none",
+  "update.mode": "manual",
   "update.enableWindowsBackgroundUpdates": false,
   "extensions.autoUpdate": false,
   "extensions.autoCheckUpdates": false,
@@ -29,5 +38,18 @@
     }
   ],
   "liveSassCompile.settings.generateMap": true,
-  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe"
+  "workbench.preferredHighContrastColorTheme": "Visual Studio Dark",
+  "workbench.preferredLightColorTheme": "Default Dark+",
+  "window.autoDetectHighContrast": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "terminal.integrated.profiles.windows": {
+    "Command Prompt": {
+      "path": "C:\\WINDOWS\\System32\\cmd.exe",
+      "args": []
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "terminal.integrated.persistentSessionReviveProcess": "never"
+  // "workbench.iconTheme": "material-icon-theme",
+  // "terminal.integrated.shell.windows": "C:\\Workflow\\Programs\\Git\\git-bash.exe",
 }
